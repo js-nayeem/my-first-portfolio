@@ -1,0 +1,45 @@
+/* shared common styles */
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.text-primary{
+
+    color: #FD6E0A;
+}
+.btn-primary{
+    border-radius: 5px;
+background: #FD6E0A;
+padding:15px 35px;
+color: white;
+border: none;
+font-weight: 700;
+font-size: 20px;
+}
+/* nav related styles */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    padding-right: 50px;
+    font-size: 20px;
+    
+}
+
+.nav-title{
+    color: var(--dark-01, #181818);
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
