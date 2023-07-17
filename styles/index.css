@@ -55,6 +55,7 @@ nav li {
   background-image: url("../images/header_bg.png"),url('../images/developer.png');
   background-repeat: no-repeat;
   background-position: bottom right,top left;
+  /* padding-bottom: 20px; */
 }
 
 .banner {
@@ -87,7 +88,7 @@ nav li {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  margin-top: 0px;
+  margin-bottom: 30px;
 }
 
 /* Main section styles */
