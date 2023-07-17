@@ -188,13 +188,37 @@ main section {
 
 /* footer styles */
 
-footer{
-    display: flex;
-    margin-top: 110px;
-    background-color: #FFF8F3;
-    padding: 130px 200px;
-    justify-content: space-between;
-    align-items: center;
-    gap: 115px;
+footer {
+  display: flex;
+  margin-top: 110px;
+  background-color: #fff8f3;
+  padding: 130px 200px;
+  gap: 115px;
+}
+.footer-coloumn {
+  width: 50%;
+}
+.social-links {
+  margin: right 50px;
+  /* margin-left: 30px; */
+}
+.footer-section-title {
+  text-align: left;
+}
+.footer-section-description{
+    text-align: left;
 }
 
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+  display: block;
+  margin-bottom: 24px;
+  padding: 18px 200px 18px 30px;
+  font-size: 16px;
+  color: #757575;
+  border-radius: 5px;
+  background: #fff;
+  border: 0;
+  width: 100%;
+}
