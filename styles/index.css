@@ -56,10 +56,11 @@ nav li {
   background-repeat: no-repeat;
   background-position: bottom right;
 }
-.btn-header ,.btn-primary{
-    margin-right: 30px;
+.btn-header,
+.btn-primary {
+  margin-right: 30px;
 }
-    
+
 .banner {
   padding: 30px 38px 0px 150px;
   display: flex;
@@ -180,7 +181,20 @@ main section {
   background: #d1d1d1;
   height: 1px;
 }
-.download-cv{
-    text-align: center;
-    margin-top: 50px;
+.download-cv {
+  text-align: center;
+  margin-top: 50px;
 }
+
+/* footer styles */
+
+footer{
+    display: flex;
+    margin-top: 110px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 115px;
+}
+
